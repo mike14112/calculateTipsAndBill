@@ -191,7 +191,7 @@ costumTip()
 const resetValue = function (){
     btnReset.addEventListener('click', () =>{
   
-        billInput.value = '';
+        inputBill.value = '';
         tipsContainer.innerHTML = `$ 0.00` 
         totalContainer.innerHTML = `$ 0.00`
         personInput.value = '';
