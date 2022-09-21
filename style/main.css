@@ -27,17 +27,29 @@ input{
     font-weight: bolder;
     font-size: 24px;
     max-width: 7rem;
+    direction: rtl;
     
 }
 input::-webkit-input-placeholder{
     color: #C7D9DB;
 }
 
+.bill_img{
+    background-image: url(../img/icon-dollar.svg);
+    background-repeat: no-repeat;
+}
+
+.img_person{
+    background-image: url(../img/icon-person.svg);
+    background-repeat: no-repeat;
+ }
+
 div{
     border-radius: 20px;
 }
 
 .bill{
+    margin-top: 1rem;
     border: none;
     background-color:#00383D ;
     color: white;
@@ -82,19 +94,19 @@ div{
 }
 
 .total_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-top: 1rem;
     background-color: #00474B;
     color: white;
     max-width: 25rem;
     height: 21rem;
+    font-weight:bolder ;
+    font-size: 24px;
 }
 
-.total_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-     padding-left: 2rem;
-}
+
 
 .tips_section{
     display: flex;
@@ -103,12 +115,15 @@ div{
     font-weight: bolder;
     font-size: 24px;
 }
+.tips{
+    margin-left: 6rem;
+}
 .total_section{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    font-weight:bolder ;
-    font-size: 24px;
+}
+.total{
+    margin-left: 8rem;
 }
 .reset_section{
     display: flex;
@@ -170,6 +185,5 @@ div{
     min-width: 15rem;
     height: 2rem;
  }
-
  
 } 

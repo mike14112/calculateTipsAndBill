@@ -25,7 +25,7 @@ const calculateTips = function(){
 
   
 
-    if(inputBill.value  != ''){
+    if(inputBill.value  != '' && personInput.value != '' && personInput.value != ''){
         let total = 0,
             person = 0;
 
@@ -46,6 +46,8 @@ const calculateTips = function(){
 
          return total;
      
+     }else{
+        alert('please enter allrequired fields')
      }
     })
 
@@ -54,7 +56,7 @@ const calculateTips = function(){
       
        
        
-        if(inputBill.value  != ''){
+        if(inputBill.value  != '' && personInput.value != ''){
             let total = 0;    
                person = 0;
 
@@ -75,11 +77,14 @@ const calculateTips = function(){
         
     
         }
+        else{
+          alert('please enter  all required fields')
+        }
        })
 
        btn15.addEventListener('click', ()=>{
         
-        if(inputBill.value  != ''){
+        if(inputBill.value  != '' && personInput.value != ''){
             let total = 0;    
             person = 0;
 
@@ -97,10 +102,9 @@ const calculateTips = function(){
           totalContainer.innerHTML = `${total}`;
        
           return total;
-     
-      
-
     
+        }else{
+            alert('please enter all required fields')
         }
        })
 
@@ -109,7 +113,7 @@ const calculateTips = function(){
         
        
        
-        if(inputBill.value  != ''){
+        if(inputBill.value  != '' && personInput.value != ''){
             let total = 0;    
             person = 0;
 
@@ -131,13 +135,15 @@ const calculateTips = function(){
      
         
     
+        }else{
+            alert('please enter all required fields')
         }
        })
        btn50.addEventListener('click', ()=>{
       
        
        
-        if(inputBill.value  != ''){
+        if(inputBill.value  != '' && personInput.value != ''){
           let total = 0;    
                person = 0;
 
@@ -156,6 +162,8 @@ const calculateTips = function(){
           
              return total;
     
+        }else{
+            alert('please enter allrequired fields')
         }
        })
     };
