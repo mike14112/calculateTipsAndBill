@@ -9,12 +9,12 @@ let inputBill = document.querySelector('.input_bill'),
     billInput = document.querySelector('.tip_input'),
     tips = document.querySelector('.tips_section'),
     tipsContainer = document.querySelector('.tips'),
-    numberOfPerson = document.querySelector('.number_of_person'),
-    numberOfPerson2 = document.querySelector('.number_of_person2'),
+    numberOfPerson = document.querySelector('.place_of_number'),
+    numberOfPerson2 = document.querySelector('.place_of_number2'),
     personInput = document.querySelector('.person_input'),
     btnReset = document.querySelector('.reset'),
     InputTip = document.querySelector('.tip_input'),
-    totalContainer = document.querySelector('.total');
+    totalContainer = document.querySelector('.total_area');
 
 
 
