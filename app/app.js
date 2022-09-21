@@ -181,7 +181,6 @@ const costumTip = function () {
 
         numberOfPerson.innerHTML = `${person}`;
         numberOfPerson2.innerHTML = `${person}`;
-
    
    });
 }
